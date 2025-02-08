@@ -1,7 +1,7 @@
 # Lost_Connection
  
 # Nombre del Proyecto
-Estamos haciendo el desarrollo de base de datos
+Actividad # 1
 
 ## Tecnologías Utilizadas
 - Docker
