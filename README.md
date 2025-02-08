@@ -8,9 +8,3 @@ Estamos haciendo el desarrollo de base de datos
 - SQL Server 2022
 - MySQL
 - MongoDB
-
-## Instalación y Configuración
-
-## Repositorio original
-
-https://github.com/rortizs/sistemas1_4534.git
