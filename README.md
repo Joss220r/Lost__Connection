@@ -1,16 +1,16 @@
-# Lost_Connection
- 
-# Nombre del Proyecto
-Estamos haciendo el desarrollo de base de datos
+# 📦 System Analysis Project with Docker, SQL Server, MariaDB, MySQL and MongoDB
 
-## Tecnologías Utilizadas
-- Docker
-- SQL Server 2022
-- MySQL
-- MongoDB
+This project sets up a database environment in **Docker** with support for **SQL Server 2022, MySQL, MariaDB and MongoDB**. Additionally, it provides a REST API to interact with these database systems.
 
-## Instalación y Configuración
+## 🚀 Used Technologies
 
-## Repositorio original
+- **Docker**: For container management.
+- **SQL Server 2022**: Microsoft relational database.
+- **MariaDB** / **MySQL**: Open source relational database.
+- **MongoDB**: Document-based NoSQL database.
 
-https://github.com/rortizs/sistemas1_4534.git
+---
+
+Jose Ayala
+Email: [jayalaf1@miumg.edu.gt]
+GitHub: GitHub: https://github.com/Joss220r
