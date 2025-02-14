@@ -1,7 +1,7 @@
 # Lost_Connection
  
 # Nombre del Proyecto
-Estamos haciendo el desarrollo de base de datos
+Estamos haciendo el desarrollo de una landing page
 
 ## Tecnologías Utilizadas
 - Docker
