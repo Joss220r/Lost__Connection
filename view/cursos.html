@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
+    <title>Courses</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-primary text-white py-3">
-        <div class="container d-flex align-items-center justify-content-between">
-            <h1 class="text-center mb-0">Nuestros Cursos</h1>
-            <a href="index.html" class="text-white text-decoration-none">Inicio</a>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Our Coursesn</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cursos.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ContactUs.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="container my-4">
@@ -20,11 +37,11 @@
             <!-- Course Card 1 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/DWEB.jpg" class="card-img-top" alt="Imagen del Curso de Programación Web">
+                    <img src="./img/DWEB.jpg" class="card-img-top" alt="Web Development Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Curso de Programación Web</h2>
-                        <p class="card-text">Aprende a crear sitios web modernos con HTML, CSS y JavaScript.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Web Development Course</h2>
+                        <p class="card-text">Learn to create modern websites with HTML, CSS, and JavaScript.</p>
+                        <a class="btn btn-primary" href="./details/web-development.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -32,11 +49,11 @@
             <!-- Course Card 2 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/DUX.jpg" class="card-img-top" alt="Imagen del Curso de Diseño UX/UI">
+                    <img src="./img/DUX.jpg" class="card-img-top" alt="UX/UI Design Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Diseño UX/UI</h2>
-                        <p class="card-text">Descubre cómo crear interfaces atractivas y funcionales para tus usuarios.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">UX/UI Design</h2>
+                        <p class="card-text">Discover how to create attractive and functional interfaces for your users.</p>
+                        <a class="btn btn-primary" href="./details/ux-ui-design.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -44,11 +61,11 @@
             <!-- Course Card 3 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/DMARK.jpg" class="card-img-top" alt="Imagen del Curso de Marketing Digital">
+                    <img src="./img/DMARK.jpg" class="card-img-top" alt="Digital Marketing Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Marketing Digital</h2>
-                        <p class="card-text">Aprende estrategias efectivas para promocionar tu negocio en línea.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Digital Marketing</h2>
+                        <p class="card-text">Learn effective strategies to promote your business online.</p>
+                        <a class="btn btn-primary" href="./details/digital-marketing.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -56,11 +73,11 @@
             <!-- Course Card 4 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/DAPP.jpg" class="card-img-top" alt="Imagen del Curso de Desarrollo de Aplicaciones Móviles">
+                    <img src="./img/DAPP.jpg" class="card-img-top" alt="Mobile App Development Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Desarrollo de Aplicaciones Móviles</h2>
-                        <p class="card-text">Crea apps para iOS y Android utilizando las últimas tecnologías.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Mobile App Development</h2>
+                        <p class="card-text">Create apps for iOS and Android using the latest technologies.</p>
+                        <a class="btn btn-primary" href="./details/mobile-app-development.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -68,11 +85,11 @@
             <!-- Course Card 5 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/CSEG.jpg" class="card-img-top" alt="Imagen del Curso Ciberseguridad Básica">
+                    <img src="./img/CSEG.jpg" class="card-img-top" alt="Basic Cybersecurity Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Ciberseguridad Básica</h2>
-                        <p class="card-text">Aprende a proteger tu información y dispositivos contra amenazas en línea.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Basic Cybersecurity</h2>
+                        <p class="card-text">Learn to protect your information and devices against online threats.</p>
+                        <a class="btn btn-primary" href="./details/cybersecurity.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -80,11 +97,11 @@
             <!-- Course Card 6 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/ADPY.jpg" class="card-img-top" alt="Imagen del Curso de Analisis de Datos con Python">
+                    <img src="./img/ADPY.jpg" class="card-img-top" alt="Data Analysis with Python Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Análisis de Datos con Python</h2>
-                        <p class="card-text">Descubre como utilizar Python para analizar grandes volúmenes de datos y obtener iformación valiosa.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Data Analysis with Python</h2>
+                        <p class="card-text">Discover how to use Python to analyze large datasets and extract valuable insights.</p>
+                        <a class="btn btn-primary" href="./details/data-analysis-python.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -92,11 +109,11 @@
             <!-- Course Card 7 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/IAML.jpg" class="card-img-top" alt="Imagen del Curso de Inteligencia Artificial y Machine Learning">
+                    <img src="./img/IAML.jpg" class="card-img-top" alt="Artificial Intelligence and Machine Learning Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Inteligencia Artificial y Machine Learning</h2>
-                        <p class="card-text">Aprende los fundamentos del aprendizaje automático y cómo aplicarlo en proyectos reales.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Artificial Intelligence and Machine Learning</h2>
+                        <p class="card-text">Learn the fundamentals of machine learning and how to apply them to real projects.</p>
+                        <a class="btn btn-primary" href="./details/ai-machine-learning.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -104,11 +121,11 @@
             <!-- Course Card 8 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/SCRUM.jpg" class="card-img-top" alt="Imagen del Curso de Gestión de Proyectos con Scrum">
+                    <img src="./img/SCRUM.jpg" class="card-img-top" alt="Project Management with Scrum Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Gestión de Proyectos con Scrum</h2>
-                        <p class="card-text">Domina la metodología ágil Scrum para optimizar la gestión de proyectos y equipos.</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Project Management with Scrum</h2>
+                        <p class="card-text">Master the agile Scrum methodology to optimize project and team management.</p>
+                        <a class="btn btn-primary" href="./details/scrum-management.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -116,11 +133,11 @@
             <!-- Course Card 9 -->
             <article class="col">
                 <div class="card h-100">
-                    <img src="./img/EVP.jpg" class="card-img-top" alt="Imagen del Curso de Edición de Video Profesional">
+                    <img src="./img/EVP.jpg" class="card-img-top" alt="Professional Video Editing Course Image">
                     <div class="card-body">
-                        <h2 class="card-title h5">Edición de Video Profesional</h2>
-                        <p class="card-text">Aprende a editar videos de manera profesional utilizando herramientas como Adobe premiere y DaVinci Resolve</p>
-                        <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        <h2 class="card-title h5">Professional Video Editing</h2>
+                        <p class="card-text">Learn to edit videos professionally using tools like Adobe Premiere and DaVinci Resolve.</p>
+                        <a class="btn btn-primary" href="./details/video-editing.html">View details</a>
                     </div>
                 </div>
             </article>
@@ -128,7 +145,7 @@
     </main>
 
     <footer class="bg-light text-center py-3 mt-4">
-        <p>&copy; 2023 Tu Empresa de Cursos. Todos los derechos reservados.</p>
+        <p>&copy; 2025 All rights reserved.</p>
     </footer>
 
     <!-- Bootstrap JS -->
