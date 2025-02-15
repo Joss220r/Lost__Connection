@@ -1,10 +1,10 @@
 # Lost_Connection
  
-# Nombre del Proyecto
-Estamos haciendo el desarrollo de una landing page
+# Project Name
+We are developing a landing page
 
-## Tecnologías Utilizadas
+## Technologies Used
 - Docker
-- SQL Server 2022
+-SQL Server 2022
 - MySQL
-- MongoDB
+-MongoDB
