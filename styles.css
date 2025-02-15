@@ -1,0 +1,79 @@
+/* Paleta de colores */
+:root {
+    --morado-oscuro: #503459;
+    --morado-medio: #81638b;
+    --morado-claro: #b695c0;
+    --morado-muy-claro: #dac9df;
+    --blanco: #ffffff;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--morado-muy-claro);
+}
+
+/* Header */
+.navbar {
+    background-color: var(--morado-oscuro) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--blanco) !important;
+}
+
+.nav-link:hover {
+    color: var(--morado-claro) !important;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: var(--morado-medio);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--morado-oscuro);
+}
+
+/* Tarjetas de cursos */
+.card {
+    border: none;
+    background-color: var(--blanco);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: var(--morado-oscuro);
+}
+
+/* Footer */
+footer {
+    background-color: var(--morado-oscuro);
+    color: var(--blanco);
+}
+
+footer a {
+    color: var(--morado-claro);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--blanco);
+}
+
+/* Estilos específicos para cursos.html */
+#cursos .btn-volver {
+    background-color: var(--morado-medio);
+    color: var(--blanco);
+    margin-bottom: 20px;
+}
+
+#cursos .btn-volver:hover {
+    background-color: var(--morado-oscuro);
+}
